@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Digital Portfolio</title>
+
+    
+
+
+</head>
+
+</head>
+<body>
+    <header>
+        <div class="header-content">
+        <h1>POOVANDRAN G</h1>
+        <img src="POOVANDRAN.jpg"alt="Profile Picture" class="picture-content" >
+        <h4>STUDENT | ANDROID DEVELOPER</h4>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#Education">Education</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Resume">Resume</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section id="about">
+        <div class="section-content">
+        <h2>About Me</h2>
+        <p>This is Poovandran  G and Iam a Final Year College Student in Sri Krishna Adthiya College of Arts And Science.</p>
+    </div>
+    </section>
+
+    <section id="Education">
+        <h2>Education</h2>
+        <p>I am Currently Pursuing 3rd Year B.Sc Information Technology .</p>
+        <P>I done my Schooling in Sri Visweswara Vidyalaya Matriculation higher Secondary School .</P>
+    </section>
+    
+    <section id="Skills">
+        <h2>Skills</h2>
+        <p>Android Application Developing</p>
+        <p>Java</p>
+        <p>Database Management</p>
+        <p>HTML and CSS</p>
+    </section>
+
+
+
+    <section id="Resume">
+        <center>
+        <div class="section-content">
+        <h2>Resume</h2>
+        <a  href="https://drive.google.com/file/d/1GO6FNrbxCCJ2MIL_b9CpOOS9CFCzZhsw/view?usp=drive_link" class="download-btn">
+          Download CV  </a>
+    </center>
+</div>
+    </section>
+
+
+
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Mobile : +91 8778166117</p>
+        <p>You can reach me at <a href="gpoovandran@gmail.com">gpoovandran@gmail.com</a></p>
+        <p>location : Coimbatore</p>
+    </section>
+
+
+
+    <footer>
+
+
+
+
+        <center>
+        <p>&copy; 2023 Poovandran G</p>
+    </center>
+
+    </footer>
+
+
+
+
+
+<script>
+
+
+
+
+// Smooth scrolling for navigation links
+document.querySelectorAll('nav a').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if (targetElement) {
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+    });
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
